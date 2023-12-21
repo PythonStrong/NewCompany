@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.primary{
+    @apply px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralIDGrey transition-all duration-300 hover:translate-y-4
+}
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
