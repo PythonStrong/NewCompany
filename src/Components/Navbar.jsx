@@ -39,7 +39,7 @@ export default function Navbar() {
         <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-gray-200 duration-300" : ""}`}>
                 <div className='flex items-center justify-between text-base gap-8'>
-                    <a href="" className='text-2xl font-semibold'><img src={logo} alt="" className='w-10 inline-block items-center' /><span className='text-[#263238]'>Hydra_Coder</span></a>
+                    <a href="" className='text-2xl font-semibold'><img src='https://static.vecteezy.com/system/resources/thumbnails/008/214/517/small_2x/abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector.jpg' alt="" className='w-12 inline-block items-center' /><span className='text-[#263238]'>Company</span></a>
 
                     <ul className='md:flex space-x-12 hidden cursor-pointer'>
                         {
@@ -62,9 +62,9 @@ export default function Navbar() {
                 </div>
             </nav>
             {/* mobile menu dev  */}
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${ isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+            <div className={`space-y-4 px-4 mt-16 py-10 bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
                 {
-                    navItems.map(({ link, path }) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-white hover:text-gray-900 duration-500 cursor-pointer first:font-medium'>{link}</Link>)
+                    navItems.map(({ link, path }) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block py-2 text-[24px]  text-white hover:text-gray-900 duration-500 cursor-pointer first:font-medium'>{link}</Link>)
                 }
             </div>
         </header>

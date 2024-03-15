@@ -1,4 +1,4 @@
-import logo from './hydralogo.png'
+import logo from './hydralogo.jpg'
 export{logo}
 
 import ath from './ath.jpg'

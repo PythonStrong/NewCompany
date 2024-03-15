@@ -23,7 +23,7 @@ export default function Products() {
             <div className='px-4 lg:px-14 max-w-screen-4xl mx-auto bg-neutralSilver py-16'>
                 <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
                     <div className='md:w-1/3'>
-                        <img src={tes} width={400} alt="" />
+                        <img src="https://i.pinimg.com/736x/48/50/4f/48504fa357f1d527ec16ec19fbabbda7.jpg" className='w-[450px] rounded-lg bg-cover h-[450px]' alt="" />
                     </div>
                     {/* stats  */}
                     <div className='md:w-2/3 mx-auto'>
@@ -31,7 +31,7 @@ export default function Products() {
                         <h5 className='text-brandPrimary text-xl font-semibold mb-2'>Hydra Coder</h5>
                         <p className='text-base text-neutralGrey mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                         <div>
-                            <div className='flex items-center gap-8 flex-wrap'>
+                            <div className='flex items-center gap-8 flex-wrap icon'>
                                 <FaGoogle size={40}/>
                                 <FaApple size={40}/>
                                 <FaInstagram size={40}/>

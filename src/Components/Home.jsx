@@ -13,9 +13,9 @@ export default function Home() {
                             <img src="https://www.chinaticket.online/assets/Illustration-a5f0019d.png" alt="" />
                         </div>
                         <div className='md:w-1/2'>
-                        <h1 className='text-5xl font-semibold mb-4 text-neutralIDGrey md:w-3/4 leading-snug'>Lorem ipsum dolor sit amet <span className='text-brandPrimary leading-snug'>consect adipisicing.</span></h1>
-                        <p className='text-neutralGrey text-base mb-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iste.</p>
-                        <button className='primary'>Register</button>
+                            <h1 className='text-5xl font-semibold mb-4 text-neutralIDGrey md:w-3/4 leading-snug'>Lorem ipsum dolor sit amet <span className='text-brandPrimary leading-snug'>consect adipisicing.</span></h1>
+                            <p className='text-neutralGrey text-base mb-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iste.</p>
+                            <button className='primary'>Register</button>
                         </div>
                     </div>
                     {/* 2 */}
@@ -24,9 +24,9 @@ export default function Home() {
                             <img src="https://www.chinaticket.online/assets/Illustration-a5f0019d.png" alt="" />
                         </div>
                         <div className='md:w-1/2'>
-                        <h1 className='text-5xl font-semibold mb-4 text-neutralIDGrey md:w-3/4 leading-snug'>Lorem ipsum dolor sit amet <span className='text-brandPrimary leading-snug'>consect adipisicing.</span></h1>
-                        <p className='text-neutralGrey text-base mb-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iste.</p>
-                        <button className='px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralIDGrey transition-all duration-300 hover:translate-y-4'>Register</button>
+                            <h1 className='text-5xl font-semibold mb-4 text-neutralIDGrey md:w-3/4 leading-snug'>Lorem ipsum dolor sit amet <span className='text-brandPrimary leading-snug'>consect adipisicing.</span></h1>
+                            <p className='text-neutralGrey text-base mb-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iste.</p>
+                            <button className='px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralIDGrey transition-all duration-300 hover:translate-y-4'>Register</button>
                         </div>
                     </div>
                     {/* 3 */}
@@ -35,9 +35,9 @@ export default function Home() {
                             <img src="https://www.chinaticket.online/assets/Illustration-a5f0019d.png" alt="" />
                         </div>
                         <div className='md:w-1/2'>
-                        <h1 className='text-5xl font-semibold mb-4 text-neutralIDGrey md:w-3/4 leading-snug'>Lorem ipsum dolor sit amet <span className='text-brandPrimary leading-snug'>consect adipisicing.</span></h1>
-                        <p className='text-neutralGrey text-base mb-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iste.</p>
-                        <button className='px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralIDGrey transition-all duration-300 hover:translate-y-4'>Register</button>
+                            <h1 className='text-5xl font-semibold mb-4 text-neutralIDGrey md:w-3/4 leading-snug'>Lorem ipsum dolor sit amet <span className='text-brandPrimary leading-snug'>consect adipisicing.</span></h1>
+                            <p className='text-neutralGrey text-base mb-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iste.</p>
+                            <button className='px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralIDGrey transition-all duration-300 hover:translate-y-4'>Register</button>
                         </div>
                     </div>
                 </Carousel>
